@@ -1,66 +1,85 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1 style="text-align: center; color: #0062E6; font-family: Arial, sans-serif;">
+    🌊 Marine & Boat Rental Software 🚤
+</h1>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<p style="text-align: center; font-size: 1.2em; color: #333;">
+    A <strong style="color: #0062E6;">Laravel-based</strong> application for managing boat rentals, bookings, and payments with a seamless user experience. Perfect for modern marine rental businesses.
 </p>
 
-## About Laravel
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2 style="color: #0062E6;">✨ Features</h2>
+<ul style="font-size: 1.1em; line-height: 1.8; color: #333;">
+    <li>🔑 <strong>User Roles</strong>: Customer and Employee functionalities.</li>
+    <li>🚤 <strong>Boat Management</strong>: Browse and book available boats.</li>
+    <li>📅 <strong>Booking System</strong>: Customers can book specific boats.</li>
+    <li>💳 <strong>Payment Integration</strong>: Manage secure payments.</li>
+    <li>📱 <strong>Responsive Design</strong>: Optimized for mobile and desktop.</li>
+</ul>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h2 style="color: #0062E6;">🔧 Tech Stack</h2>
+<ul style="font-size: 1.1em; line-height: 1.8; color: #333;">
+    <li>💻 <strong>Backend:</strong> Laravel 10 (PHP Framework)</li>
+    <li>🌐 <strong>Frontend:</strong> Blade Templates, HTML5, CSS3, JavaScript</li>
+    <li>🗄️ <strong>Database:</strong> MySQL</li>
+    <li>⚙️ <strong>Others:</strong> Composer, npm, Bootstrap (optional for UI)</li>
+</ul>
 
-## Learning Laravel
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<h2 style="color: #0062E6;">🚀 Installation</h2>
+<p style="font-size: 1.1em; color: #333;">
+    Follow these steps to set up the project locally:
+</p>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<ol style="font-size: 1.1em; line-height: 1.8; color: #333;">
+    <li><strong>Clone the repository:</strong></li>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">git clone https://github.com/your-username/boat-rental-software.git</pre>
+    <li><strong>Navigate to the project directory:</strong></li>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">cd boat-rental-software</pre>
+    <li><strong>Install dependencies:</strong></li>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">composer install</pre>
+    <li><strong>Set up environment variables:</strong></li>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">cp .env.example .env</pre>
+    <li><strong>Generate application key:</strong></li>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">php artisan key:generate</pre>
+    <li><strong>Run database migrations:</strong></li>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">php artisan migrate</pre>
+    <li><strong>Start the server:</strong></li>
+    <pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">php artisan serve</pre>
+</ol>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
 
-## Laravel Sponsors
+<h2 style="color: #0062E6;">👩‍💻 Contributing</h2>
+<p style="font-size: 1.1em; color: #333;">
+    Contributions are welcome! Follow these steps to contribute:
+</p>
+<ol style="font-size: 1.1em; line-height: 1.8; color: #333;">
+    <li>Fork the repository.</li>
+    <li>Create a new branch: <code>git checkout -b feature-name</code></li>
+    <li>Make your changes and commit them: <code>git commit -m "Description of changes"</code></li>
+    <li>Push to your fork: <code>git push origin feature-name</code></li>
+    <li>Submit a pull request.</li>
+</ol>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
 
-### Premium Partners
+<h2 style="color: #0062E6;">📄 License</h2>
+<p style="font-size: 1.1em; color: #333;">
+    This project is licensed under the <a href="LICENSE" style="color: #0062E6; text-decoration: none;">MIT License</a>.
+</p>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+<hr style="border: 1px solid #ccc; margin: 20px 0;">
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h2 style="color: #0062E6;">📞 Contact</h2>
+<p style="font-size: 1.1em; color: #333;">
+    For questions or support, contact:
+</p>
+<ul style="font-size: 1.1em; line-height: 1.8; color: #333;">
+    <li><strong>Name:</strong> Your Name</li>
+    <li><strong>Email:</strong> your-email@example.com</li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/your-username" style="color: #0062E6; text-decoration: none;">https://github.com/your-username</a></li>
+</ul>
