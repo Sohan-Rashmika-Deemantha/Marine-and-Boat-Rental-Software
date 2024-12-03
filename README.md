@@ -81,5 +81,5 @@
 <ul style="font-size: 1.1em; line-height: 1.8; color: #333;">
     <li><strong>Name:</strong> Sohan Rashmika Deemantha</li>
     <li><strong>Email:</strong> rashmikat99@gmail.com</li>
-    <li><strong>GitHub:</strong> <a href="https://github.com/Sohan-Rashmika-Deemantha" style="color: #0062E6; text-decoration: none;">https://github.com/your-username</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/Sohan-Rashmika-Deemantha" style="color: #0062E6; text-decoration: none;">https://github.com/Sohan-Rashmika-Deemantha</a></li>
 </ul>
